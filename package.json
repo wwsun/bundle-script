@@ -1,0 +1,29 @@
+{
+  "name": "bundle-script",
+  "version": "1.0.0",
+  "description": "bundle script for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack --config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwsun/bundle-script.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "ww.sun@outlook.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wwsun/bundle-script/issues"
+  },
+  "homepage": "https://github.com/wwsun/bundle-script#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-egg": "^3.2.0"
+  },
+  "dependencies": {
+    "extract-text-webpack-plugin": "^1.0.1"
+  }
+}
