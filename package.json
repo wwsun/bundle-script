@@ -25,5 +25,8 @@
   },
   "dependencies": {
     "extract-text-webpack-plugin": "^1.0.1"
+  },
+  "peerDependencies": {
+    "webpack": "^1.13.3"
   }
 }
