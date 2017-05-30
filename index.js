@@ -1,6 +1,7 @@
 'use strict';
 
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CommonsChunkPlugin = require('webpack/lib/optimize/CommonsChunkPlugin');
 
 module.exports = {
 
@@ -52,5 +53,6 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('[name].css'),
+    new CommonsChunkPlugin('common.js'),
   ],
 };
