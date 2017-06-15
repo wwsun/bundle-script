@@ -53,6 +53,8 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('[name].css'),
-    new CommonsChunkPlugin('common.js'),
+    new CommonsChunkPlugin({
+      name: 'common',
+    }),
   ],
 };
