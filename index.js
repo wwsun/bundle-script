@@ -28,7 +28,7 @@ module.exports = {
       query: {
         cacheDirectory: true,
         presets: [ 'es2015', 'react', 'stage-0' ],
-        plugins: [ 'transform-decorators-legacy' ],
+        plugins: [ 'transform-decorators-legacy', 'transform-object-rest-spread' ],
       },
     }, {
       test: /\.less$/,
